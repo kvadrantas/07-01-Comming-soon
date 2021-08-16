@@ -1,0 +1,39 @@
+.progress-bar {
+    margin-top: 5px;
+}
+
+.progress-bar + .progress-bar + .progress-bar {
+    margin-bottom: 80px;
+}
+
+.progress-bar .top {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.progress-bar .label {
+    float: left;
+    color: #6f7073;
+}
+
+.progress-bar .value {
+    float: right;
+    color: #6f7073;
+}
+
+.progress-bar .bottom {
+    display: inline-block;
+    width: 100%;
+    height: 8px;
+    border-radius: 4px;
+    background-color: rgb(204, 203, 203);
+}
+
+.progress-bar .fill {
+    /* width: 90%; */
+    height: inherit;
+    border-radius: 4px;
+    background-color: rgb(4, 184, 4);
+}
